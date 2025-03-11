@@ -5,15 +5,12 @@ This Python script extracts blue-colored text from a PDF file, specifically afte
 Features
 
 Scans a PDF for text with formatting info.
-
 Identifies and extracts blue-colored text that appears after a given trigger phrase.
-
 Saves the extracted data into an Excel file, storing each detected segment as a new row.
 
 Installation
 
 Ensure you have Python installed, then install the required dependencies:
-
 pip install pymupdf pandas openpyxl
 
 Usage
