@@ -23,8 +23,8 @@ Usage
 
 Modify the pdf_path and output_xls variables in the script to match your input PDF and desired Excel output filename. Example:
 
-pdf_path = "PUT_YOUR_INPUT_PATH_HERE.pdf"
-output_xls = "output.xlsx"
+pdf_path = "INSERT_YOUR_INPUT_PATH_HERE.pdf"
+output_xls = "blue_text_output_new_row_per_trigger.xlsx"
 
 Dependencies
 
