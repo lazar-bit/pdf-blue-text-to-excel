@@ -4,7 +4,7 @@ import pandas as pd
 def extract_blue_after_trigger(pdf_path, output_xls):
     doc = fitz.open(pdf_path)
     data = []  # To store rows of blue text after each trigger
-    new_entry_trigger = "trigger_text_in_the_pdf"  # Trigger phrase
+    new_entry_trigger = "triggering_text_in_pdf"  # Trigger phrase
     collecting = False  # Flag to start collecting after the trigger
     current_row = []  # Temporary list to store the current row of blue text
 
