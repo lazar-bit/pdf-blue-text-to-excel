@@ -49,6 +49,6 @@ def extract_blue_after_trigger(pdf_path, output_xls):
     print(f"Extraction complete! Data saved to {output_xls}")
 
 # Usage
-pdf_path = "your_file.pdf"  # Your file path
+pdf_path = "INSERT_YOUR_INPUT_PATH_HERE.pdf"  # Your file path
 output_xls = "blue_text_output_new_row_per_trigger.xlsx"
 extract_blue_after_trigger(pdf_path, output_xls)
