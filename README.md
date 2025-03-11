@@ -14,6 +14,7 @@ Ensure you have Python installed, then install the required dependencies:
 pip install pymupdf pandas openpyxl
 
 Code Explanation
+
 Trigger Phrase: The extraction starts after a specific phrase ("triggering_text_in_pdf" in the example). You can modify this to any other trigger phrase.
 Color Filtering: The script extracts blue-colored text by checking the RGB values of the text's color. It considers text with a higher blue component than red or green as "blue."
 Excel Output: All the extracted blue text is saved in an Excel file. Each line of blue text is added as a row.
